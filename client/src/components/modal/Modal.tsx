@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Web5 } from "@web5/api";
+//import { Web5 } from "@web5/api";
 import "./modal.css";
 
 interface ModalProps {
@@ -12,6 +12,7 @@ const Modal: React.FC<ModalProps> = ({ setIsModal }) => {
     const [web5, setWeb5] = useState<any>(null);
     const [aliceDid, setAliceDid] = useState<any>(null);
 
+    /*
     useEffect(() => {
         const connect = async () => {
             const { web5: webFive, did: alcDid } = await Web5.connect();
@@ -22,6 +23,7 @@ const Modal: React.FC<ModalProps> = ({ setIsModal }) => {
 
         connect();
     }, []);
+    */
 
     return (
         <div className="modal_container">
