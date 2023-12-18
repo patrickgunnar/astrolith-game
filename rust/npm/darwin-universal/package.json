@@ -1,0 +1,15 @@
+{
+  "name": "astrolith-rust-darwin-universal",
+  "version": "0.0.0",
+  "os": [
+    "darwin"
+  ],
+  "main": "astrolith-rust.darwin-universal.node",
+  "files": [
+    "astrolith-rust.darwin-universal.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}
